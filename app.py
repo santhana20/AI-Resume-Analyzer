@@ -4,7 +4,7 @@ st.set_page_config(page_title="AI Resume Analyzer")
 
 st.title("AI Resume Analyzer")
 
-uploaded_file = st.file_uploader("Upload Resume (TXT file)", type=["txt"])
+uploaded_file = st.file_uploader("Upload Resume", type=["txt","pdf","docs"])
 
 required_skills = [
     "Python",
