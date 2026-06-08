@@ -49,16 +49,16 @@ if uploaded_file is not None:
     st.progress(score)
     st.write(f"Score: {score}%")
 
-st.subheader("Suggestions")
-
-if score >= 80:
-    st.success("Excellent resume! Your resume contains most of the important skills.")
-elif score >= 60:
-    st.warning("Good resume. Consider adding more relevant skills and project details.")
-else:
-    st.error("Your resume needs improvement. Add more technical skills, projects, and certifications.")
-
-if missing_skills:
-    st.write("Recommended skills to add:")
-    for skill in missing_skills:
-        st.write(f"- {skill}")
+    st.subheader("Suggestions")
+    
+    if score >= 80:
+        st.success("Excellent resume! Your resume contains most of the important skills.")
+    elif score >= 60:
+        st.warning("Good resume. Consider adding more relevant skills and project details.")
+    else:
+        st.error("Your resume needs improvement. Add more technical skills, projects, and certifications.")
+    
+    if missing_skills:
+        st.write("Recommended skills to add:")
+        for skill in missing_skills:
+            st.write(f"- {skill}")
