@@ -26,8 +26,8 @@ App will run on `http://localhost:5000`
 4. Paste target job description
 5. Get instant ATS score + improvement report
 
-🌐 Live Demo
-https://ai-resume-analyzer-nk7sfhjizfghfpxvsr3ye8.streamlit.app/
+## 🌐 Live Demo
+[Click here to try AI Resume Analyzer →](https://ai-resume-analyzer-nk7sfhjizfghfpxvsr3ye8.streamlit.app/)
 
 📄 License
 MIT License - feel free to use and modify
